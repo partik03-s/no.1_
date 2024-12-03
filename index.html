@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="birthdayCard">
+      <div class="cardFront">
+        <h3 class="happy">HAPPY BIRTHDAY</h3>
+        <div class="balloons">
+          <div class="balloon-1"></div>
+          <div class="balloon-2"></div>
+          <div class="balloon-3"></div>
+          <div class="balloon-4"></div>
+        </div>
+      </div>
+      
+      <div class="cardInside">
+        <p>Dear kumkum</p>
+        <p>
+          On this special day, I wish you endless happiness, good health, and all the success your heart desires. May your year ahead be as amazing as you are! Thank you for bringing so much joy into the lives of those around you.
+        </p>
+        <button id="celebrateButton" class="specialButton">let's Celebrate!</button>
+      </div>
+    </div>
+
+    <!-- Audio Element for Music -->
+    <audio id="birthdayMusic" src="Birthday_320(PagalWorld.com.sb).mp3" preload="auto" loop></audio>
+
+    <!-- Confetti and Cracker Burst Container -->
+    <div id="crackerContainer"></div>
+
+    <script src="birthdayConfetti.js"></script>
+  </body>
+</html>
